@@ -1,0 +1,14 @@
+body{
+    background-color: greenyellow;
+}
+
+.section-a{
+    background-color: brown;
+    padding: 20px;
+    margin: 10px;
+}
+
+.section-b{
+    background-color: darkblue;
+    padding: 20px;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 187, 0);
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    margin: 100px;
+    font-size: 100px;
+}
+
+#contenedor{
+    text-align: center;
+justify-content: center;
+margin: 400px;
+padding: 10px;
+}
+
+#boton1{
+    padding: 15px;
+    margin: 10px;
+    width: 10vh;
+}
+
+.dropdown-item{
+    background-color: white;
+    bottom: 200px;
+}

@@ -1,28 +1,14 @@
 
-    
-    const result = () => {
-    return result;
-    
+function CalcularModelo(dimensionesElemento,width,padding,borde){
 
-};
-
-const precioResult = sinIva(10); 
-
+    if(dimensionesElemento=="border-box"){
+        var boxSizing=`${dimensionesElemento} ${width}px ${padding}% ${borde}px`;
+    }else{
+        var boxSizing=`${dimensionesElemento} ${width}px`;
+    }
 
 
-    const result3 = () => { 
-    return result3;
-
-};
-
-const precioconIva = conIva(10);
-
-function sum () {
-
-    const result4 = precioResult + precioconIva;
-    return result4;
+    console.log(boxSizing);
 }
 
-const Total = sum();
-
-console.log("Precio sin IVA: " + precioResult +"," + " IVA: " + precioconIva + " y Total: " + Total);
+CalcularModelo("content-box",80,1,13);

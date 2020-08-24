@@ -1,11 +1,6 @@
-const superWave = document.querySelector('.super-wawe');
+const superWave = document.querySelector('.super-wave');
 
-superWave.classList.add(".hidden");
+const SuperOla = document.querySelector(".Super-ola");
 
-const estilo = document.querySelector(".super-wawe");
-
-const color = "<strong>OLA!</strong>"
-
-estilo.innerHTML = color; 
-
+SuperOla.innerHTML="WOwwwww";
 

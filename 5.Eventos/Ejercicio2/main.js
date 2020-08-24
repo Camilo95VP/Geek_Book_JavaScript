@@ -1,3 +1,9 @@
-const button = document.querySelector(".imprimir");
 
-const mostrar = () => console.log("Hola, ").value;
+document.querySelector("#Boton").addEventListener("click",imprimirNombre);
+
+
+function imprimirNombre(){
+    var nombre=document.querySelector("#name").value;
+
+    console.log("El nombre ingresado es: "+nombre);
+}

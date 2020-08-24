@@ -1,12 +1,10 @@
-let años
+var edadPerro=17;
+var promedio=3;
 
-let primerAño = 15
-let segundoAño = 9
-let tercerAño = (primerAño + segundoAño + 5)
-
-if (años = 1) { 
-
-console.log ("Tu perro tiene " + primerAño + " años humanos");
-
+if(edadPerro>=1 && edadPerro<2){
+    console.log("La edad del perro es de: 175 años humanos");
+}else if(edadPerro>=2 && edadPerro<3){
+    console.log("La edad del perro es de: 24 años humanos");
+}else if(edadPerro>=3){
+    console.log("La edad del perro es de: "+((((edadPerro-promedio)+1)+17)+24)+" años humanos");
 }
-
